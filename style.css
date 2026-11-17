@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #201313;
+  color: #EAE6E4;
+}
+
+button {
+  border: none;
+  border-radius: 27px;
+  padding: 13px 18px;
+  background-color: #201313;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700px;
+  color: #f1edeb;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.dotted_dec,
+.pagination a {
+  text-decoration: underline dotted;
+  color: #f1edeb;
+  font-size: 22.5px;
+  font-weight: 700px;
+  letter-spacing: normal;
+
+}
+
+h2 {
+  font-size: 31.5px;
+  list-style: 36.225px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20.25px;
+  line-height: 30.375px;
+  margin-top: 9px;
+}
+
+p.author {
+  font-size: 18px;
+  line-height: 27px;
+
+}
+
+p.author a {
+  text-decoration: none;
+  color: #FFC496;
+  font-weight: 700;
+
+}
+
+p.author+p {
+  font-size: 20px;
+  line-height: 23.76px;
+  font-weight: 700;
+}
+
+footer li {
+  text-decoration: underline dotted;
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding: 10px 25px;
+  line-height: 27px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  padding-right: 25px;
+
+}
+
+nav li a {
+  font-size: 15.84px;
+  font-weight: 700;
+  line-height: 18.216px;
+  text-decoration: none;
+  color: #EAE6E4;
+}
+
+.blog {
+  color: #FFC726;
+}
+
+nav>button {
+  border: none;
+  border-radius: 27px;
+  padding: 13px 18px;
+  background-color: #E03131;
+}
+
+nav button a {
+  text-decoration: none;
+  color: #EAE6E4;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+  font-size: 15.84px;
+  line-height: 15.84px;
+}
+
+main {
+  max-width: 712px;
+  width: 100%;
+  margin: 54px auto;
+  padding-top: 72px;
+
+}
+
+main h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 59.5px;
+  line-height: 56.925px;
+  font-weight: 700;
+  color: #FAF9F9;
+  margin-bottom: 18px;
+}
+
+.Giant_Robots h3 {
+  font-size: 27px;
+  line-height: 40.5px;
+  padding-bottom: 36px;
+  font-weight: 400;
+}
+
+.Giant_Robots hr {
+  margin-bottom: 38px;
+}
+
+.Giant_Robots .topics {
+  border: none;
+  background-color: #FFC726;
+  color: #201313;
+}
+
+.Giant_Robots .topics a {
+  color: #201313;
+}
+
+.Giant_Robots button {
+  margin-right: 14px;
+  border: 1px solid #fff;
+  border-radius: 27px;
+  font-weight: 700;
+}
+
+.sign-up {
+  margin-top: 90px;
+  padding: 36px;
+  padding-top: 27px;
+  background-color: #2F1C1C;
+}
+
+.sign-up h2 {
+  margin-top: 0px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sign-up p {
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 18px;
+  padding: 0px 13px;
+}
+
+.sign-up div {
+  margin-top: 9px;
+}
+
+.sign-up input {
+  width: 450.3px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 22.5px;
+  line-height: 25.875px;
+  background-color: #2F1C1C;
+  color: #EAE6E4;
+  padding: 13px;
+  margin-right: 14px;
+}
+
+.sign-up button {
+  padding: 18px 36px;
+  border: none;
+  border-radius: 27px;
+  background-color: #E03131;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 0px;
+}
+
+.connect {
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 36.25px;
+
+}
+
+.connect p {
+  font-size: 18px;
+}
+
+.connect div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+
+  line-height: 27px;
+}
+
+.connect a {
+  color: rgb(255, 231, 163);
+  font-weight: 700;
+  line-height: 30.6px;
+  padding-left: 0px;
+  font-size: 18px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.pagination li {
+  list-style-type: none;
+}
+
+.pagination a {
+  color: #EAE6E4;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 30px;
+  padding: 54px 36px;
+}
+
+footer img {
+  margin-bottom: 259px;
+}
+
+footer>div:nth-child(2) {
+  margin-right: 80px;
+}
+
+footer .cop p {
+  font-size: 15.84px;
+  line-height: 23.76px;
+}
+
+footer>div div {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  margin-bottom: 114px;
+}
+
+footer a {
+  font-size: 18px;
+  line-height: 30.6px;
+  color: #EAE6E4;
+}
